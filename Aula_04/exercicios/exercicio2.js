@@ -30,10 +30,13 @@ for (let i = 0; i < n; i++) {
         if (numero > maiorNumeroPar) {
             maiorNumeroPar = numero;
         }
-    }else {
-        if (menorNumeroImpar === 0){
+    } else {
+        if (menorNumeroImpar === 0) {
             menorNumeroImpar = numero;
         }
     }
 
 }
+
+print('Maior número par: ' + maiorNumeroPar);
+print('Menor número impar: ' + menorNumeroImpar);
